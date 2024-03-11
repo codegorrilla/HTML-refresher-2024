@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: normal;
+    font-weight: normal;
+    color: #fff;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #000100;
+}
+
+.container{
+    width: 100%;
+    max-width: 768px;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2.title,
+h2#today{
+    width: 100%;
+    padding: 2rem;
+    font-size: 4rem;
+    color:#ddd;
+}
