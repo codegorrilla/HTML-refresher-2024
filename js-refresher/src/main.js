@@ -63,3 +63,34 @@ document.getElementById("month").innerHTML = "the current month is: " + currMont
 //find out the current age of a person
 
 
+//Date.parse
+const msec = Date.parse("March 14, 2024")
+
+console.log(msec)
+
+const newMsecDate = new Date(msec)
+
+document.querySelector(".msecToDate").innerHTML = newMsecDate
+
+
+const d2 = Date.now()
+
+console.log(d2)
+
+const nowDate = new Date(d2)
+
+console.log(nowDate)
+
+const d3 = new Date()
+
+const showDate2 = d3.getDay()
+
+console.log("Today is: " + days[showDate2])
+
+document.querySelector(".dateNow").innerHTML = "Today is: " + days[showDate2]
+
+
+//using JSON
+
+
+

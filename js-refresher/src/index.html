@@ -17,8 +17,24 @@
         <h2 id="today" class="title"></h2>
 
         <h2 id="month" class="title"></h2>
+
+        <h3 class="msecToDate"></h3>
+
+        <h3 class="dateNow"></h3>
+
+        <p class="person-desc"></p>
+
+        <p class="person-bio"></p>
     </section>
 
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
+    <script type="module">
+        import messages from './js-modules/messages.js'
+        import bio from './js-modules/bio.js'
+
+        document.querySelector(".person-desc").innerHTML = messages()
+
+        document.querySelector(".person-bio").innerHTML = bio('Sanjib', 40, 'developer')
+    </script>
 </body>
 </html>

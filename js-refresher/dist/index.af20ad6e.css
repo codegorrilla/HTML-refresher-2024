@@ -26,7 +26,7 @@ html, body {
   display: flex;
 }
 
-h2.title, h2#today {
+h2.title, h2#today, h3, p {
   color: #ddd;
   width: 100%;
   padding: 2rem;

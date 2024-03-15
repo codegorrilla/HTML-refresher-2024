@@ -28,7 +28,9 @@ html, body{
 }
 
 h2.title,
-h2#today{
+h2#today,
+h3,
+p{
     width: 100%;
     padding: 2rem;
     font-size: 4rem;
