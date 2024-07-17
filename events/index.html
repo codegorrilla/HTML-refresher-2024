@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Mouse/keyboard events</title>
+
+    <style>
+        body{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            margin: 0;
+            padding: 2rem;
+            box-sizing: border-box;
+            background-color: #fff;
+            font-family: "Arial", sans-serif;
+            font-weight: normal;
+            font-size: 62.5%;
+            text-align: left;
+            line-height: normal;
+            color: #000;
+        }
+
+        input,
+        button{
+            margin-right: .5rem;
+            padding: 1rem;
+        }
+
+        .text,
+        .showkey,
+        .keyval{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--keyboard events -->
+    <input type="text" id="demo" placeholder="enter your name">
+    <button>Submit</button>
+    <p class="text"></p>
+    <p class="showkey"></p>
+    <p class="keyval"></p>
+
+    <script type="module" src="./lib/logVal.js"></script>
+</body>
+</html>
