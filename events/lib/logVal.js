@@ -34,9 +34,10 @@ function displayKey(e) {
     showKeyName.innerHTML = "you've pressed 'S' key ";
   }
 }
-document.getElementById('demo').addEventListener('keyup', keyCount);
 
-//determine how many times the key has been pressed
+//document.getElementById('demo').addEventListener('keyup', keyCount);
+
+//determine how many times the key has been pressed => need to fix
 function keyCount(e) {
   var count = [];
   var btnName = e.key;
